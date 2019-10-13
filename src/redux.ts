@@ -1,14 +1,12 @@
 import {Action, createAction} from "redux-actions";
-import {FileInfo, State} from "./state";
+import {State} from "./state";
 import {Some} from "space-lift";
 
 
 const LOADING_START = "LOADING/SHOW_PICKER";
 
-const LOADING_SHOW_FILE = "LOADING/SHOW_FILE";
-
 const SAVE_ACCESS_TOKEN = "SAVE_ACCESS_TOKEN";
-const SAVE_FILE_INFORMATION = "SAVE_FILE_INFO"
+const SAVE_FILE_INFORMATION = "SAVE_FILE_INFO";
 
 const LOADER_SHOW = "LOADER/SHOW";
 const LOADER_HIDE = "LOADER/HIDE";
